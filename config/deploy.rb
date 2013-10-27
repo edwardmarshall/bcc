@@ -2,7 +2,7 @@ require 'bundler/capistrano'
 
 set :application, "bcc"
 set :user, 'ubuntu'
-ssh_options[:keys]=["#{ENV['HOME']}/.ssh/bcc_dev.pem"]
+ssh_options[:keys]=["#{ENV['HOME']}/.ssh/bcc.pem"]
 ssh_options[:forward_agent] = true
 default_run_options[:pty] = true
 set :use_sudo, false 
