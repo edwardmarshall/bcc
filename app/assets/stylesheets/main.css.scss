@@ -1,0 +1,73 @@
+.font-gotham-light {
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 300; 
+    font-style: normal;
+}
+.font-whitney-light {
+    font-family: 'Whitney A', 'Whitney B'; 
+    font-weight: 300; 
+    font-style: normal;
+}
+.font-whitney-smart {
+    font-family: 'Whitney SSm A', 'Whitney Ssm B';
+    font-weight: 400; 
+    font-style: normal;
+}
+@mixin font-gotham-light {
+    font-family: 'Gotham A', 'Gotham B';
+    font-weight: 300; 
+    font-style: normal;
+}
+@mixin font-whitney-light {
+    font-family: 'Whitney A', 'Whitney B'; 
+    font-weight: 300; 
+    font-style: normal;
+}
+.container-fluid {
+	width: 980px;
+	margin: 0 auto;
+}
+.text-centered {
+	text-align: center;
+}
+h1 {
+  background: url('bcc_logo.jpg') no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+  height: 571px;
+  width: 796px;
+  margin: 0 auto
+}
+h2 {
+	color: #dacdb8;
+	font-size: 32px;
+}
+h3 {
+	color: #e96e57;
+	font-size: 60px;
+}
+.circle {
+	background: #cedcd3;
+	color: #3e474c;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	padding: 36px;
+	margin: 5px;
+	font-size: 72px;
+}
+.circle-text {
+	font-size: 21px;
+	display: block;
+}
+a {
+	color: #e96e57;
+	text-decoration: none;
+}
+.circle-row	 {
+	margin-bottom: 100px;
+}
+.copyright-row {
+	margin-bottom: 50px;
+}

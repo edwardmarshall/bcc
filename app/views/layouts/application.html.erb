@@ -3,12 +3,13 @@
 <head>
   <title>Bcc</title>
   <%= stylesheet_link_tag    "application", media: "all" %>
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7588852/769882/css/fonts.css" />
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+	<div class="container-fluid">
+		<%= yield %>
+	</div>
 </body>
 </html>
